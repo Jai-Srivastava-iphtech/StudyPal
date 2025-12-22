@@ -2,11 +2,11 @@
 
 StudyPal is an iOS application built using **UIKit and Storyboards** that helps students manage their academic activities such as classes, homework, exams, teachers, and messages in one place.
 
-This project focuses on **clean UI, modular code structure, and real-world app navigation**
+This project focuses on **clean UI, modular code structure, and real-world app navigation**.
 
 ---
 
-## 📱 App Screens
+## App Screens
 
 | Onboarding | Home | Menu |
 |-----------|------|------|
@@ -24,7 +24,7 @@ Each screen is connected using a **UINavigationController** and **Storyboard seg
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 The project is organized in a **feature-based structure** for better readability and scalability.
 
@@ -80,37 +80,37 @@ palStudy
 
 ---
 
-## ✨ Features
+## Features
 
-### 🏠 Home
+### Home
 - Dashboard with upcoming exams, pending homework, new classes, and messages
 - “Today’s Schedule” implemented using `UICollectionView`
 
-### 📚 Classes
+### Classes
 - Class list displayed using collection view cards
 - Tapping a class navigates to the class detail screen
 
-### 📖 Class Detail
+### Class Detail
 - Detailed information about a class
 - Background illustration and lecturer information
 
-### 📝 Homework
+### Homework
 - Subject-wise homework list
 - Checkbox-style task completion UI
 
-### 🧪 Exams
+### Exams
 - Exam cards with subject, date, mode, and sign-up button
 - Option to sign up for another exam
 
-### 👩‍🏫 Teachers
+### Teachers
 - Teacher list with profile images and contact icons
 
-### 💬 Messages
+### Messages
 - Chat-style message list with recent conversations
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Swift
 - **Framework:** UIKit
@@ -121,7 +121,7 @@ palStudy
 
 ---
 
-## 🎯 Learning Goals
+## Learning Goals
 
 This project was built to practice:
 
@@ -134,7 +134,7 @@ This project was built to practice:
 
 ---
 
-## 🚧 Future Improvements
+## Future Improvements
 
 - Firebase Authentication (Login / Sign Up)
 - Google Sign-In integration
@@ -144,14 +144,14 @@ This project was built to practice:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Jai Srivastava**  
 iOS Developer (Learning & Building)
 
 ---
 
-## 📄 License
+## License
 
 This project is created for **learning and portfolio purposes**.
 
