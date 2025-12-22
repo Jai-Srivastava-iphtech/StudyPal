@@ -28,46 +28,47 @@ Each screen is connected using a **UINavigationController** and **Storyboard seg
 
 The project is organized in a **feature-based structure** for better readability and scalability.
 
+```text
 palStudy
 │
 ├── Maths101ViewController
-│ └── Maths101ViewController.swift
+│   └── Maths101ViewController.swift
 │
 ├── MessagesViewController
-│ └── MessagesViewController.swift
+│   └── MessagesViewController.swift
 │
 ├── TeachersViewController
-│ └── TeachersViewController.swift
+│   └── TeachersViewController.swift
 │
 ├── ExamsViewController
-│ ├── model
-│ │ └── ExamItem.swift
-│ ├── cells
-│ │ └── ExamCardCell.swift
-│ └── ExamsViewController.swift
+│   ├── model
+│   │   └── ExamItem.swift
+│   ├── cells
+│   │   └── ExamCardCell.swift
+│   └── ExamsViewController.swift
 │
 ├── HomeworkViewController
-│ └── HomeworkViewController.swift
+│   └── HomeworkViewController.swift
 │
 ├── ClassesViewController
-│ ├── cells
-│ │ └── ClassCardCell.swift
-│ ├── models
-│ │ └── ClassItem.swift
-│ └── ClassesViewController.swift
+│   ├── cells
+│   │   └── ClassCardCell.swift
+│   ├── models
+│   │   └── ClassItem.swift
+│   └── ClassesViewController.swift
 │
 ├── HomeViewController
-│ ├── cells
-│ │ └── ScheduleCardCell.swift
-│ ├── models
-│ │ └── ScheduleItem.swift
-│ └── HomeViewController.swift
+│   ├── cells
+│   │   └── ScheduleCardCell.swift
+│   ├── models
+│   │   └── ScheduleItem.swift
+│   └── HomeViewController.swift
 │
 ├── OnboardingViewController
-│ └── OnboardingViewController.swift
+│   └── OnboardingViewController.swift
 │
 ├── MenuViewController
-│ └── MenuViewController.swift
+│   └── MenuViewController.swift
 │
 ├── AppDelegate.swift
 ├── SceneDelegate.swift
