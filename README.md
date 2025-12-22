@@ -2,7 +2,7 @@
 
 StudyPal is an iOS application built using **UIKit and Storyboards** that helps students manage their academic activities such as classes, homework, exams, teachers, and messages in one place.
 
-This project focuses on **clean UI, modular code structure, and real-world app navigation**.
+This project focuses on **clean UI, modular code structure, and real-world app navigation**
 
 ---
 
