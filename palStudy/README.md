@@ -76,7 +76,7 @@ palStudy
 ├── LaunchScreen.storyboard
 ├── Info.plist
 └── Assets.xcassets
-
+```
 
 ---
 
