@@ -26,6 +26,16 @@
 		188D7F0C2EF432C6003EA03F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D7F0B2EF432C6003EA03F /* SceneDelegate.swift */; };
 		188D7F112EF432C6003EA03F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188D7F0F2EF432C6003EA03F /* Main.storyboard */; };
 		188D7F162EF432C9003EA03F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188D7F142EF432C9003EA03F /* LaunchScreen.storyboard */; };
+		1890AC4C2EFBBE1E00E31E75 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1890AC4B2EFBBE1E00E31E75 /* README.md */; };
+		1890AC592EFBBE7A00E31E75 /* teachers.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890AC502EFBBE7A00E31E75 /* teachers.png */; };
+		1890AC5A2EFBBE7A00E31E75 /* homework.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890AC512EFBBE7A00E31E75 /* homework.png */; };
+		1890AC5B2EFBBE7A00E31E75 /* class_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890AC522EFBBE7A00E31E75 /* class_detail.png */; };
+		1890AC5C2EFBBE7A00E31E75 /* classes.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890AC532EFBBE7A00E31E75 /* classes.png */; };
+		1890AC5D2EFBBE7A00E31E75 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890AC542EFBBE7A00E31E75 /* home.png */; };
+		1890AC5E2EFBBE7A00E31E75 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890AC552EFBBE7A00E31E75 /* menu.png */; };
+		1890AC5F2EFBBE7A00E31E75 /* onboarding.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890AC562EFBBE7A00E31E75 /* onboarding.png */; };
+		1890AC602EFBBE7A00E31E75 /* exams.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890AC572EFBBE7A00E31E75 /* exams.png */; };
+		1890AC612EFBBE7A00E31E75 /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 1890AC582EFBBE7A00E31E75 /* messages.png */; };
 		18A152BF2EF90B730059A557 /* Maths101ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A152BE2EF90B730059A557 /* Maths101ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +61,16 @@
 		188D7F102EF432C6003EA03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		188D7F152EF432C9003EA03F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188D7F172EF432C9003EA03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1890AC4B2EFBBE1E00E31E75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1890AC502EFBBE7A00E31E75 /* teachers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teachers.png; sourceTree = "<group>"; };
+		1890AC512EFBBE7A00E31E75 /* homework.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homework.png; sourceTree = "<group>"; };
+		1890AC522EFBBE7A00E31E75 /* class_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = class_detail.png; sourceTree = "<group>"; };
+		1890AC532EFBBE7A00E31E75 /* classes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classes.png; sourceTree = "<group>"; };
+		1890AC542EFBBE7A00E31E75 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		1890AC552EFBBE7A00E31E75 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		1890AC562EFBBE7A00E31E75 /* onboarding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onboarding.png; sourceTree = "<group>"; };
+		1890AC572EFBBE7A00E31E75 /* exams.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exams.png; sourceTree = "<group>"; };
+		1890AC582EFBBE7A00E31E75 /* messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messages.png; sourceTree = "<group>"; };
 		18A152BE2EF90B730059A557 /* Maths101ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maths101ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,128 +85,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		183E7D3A2EF522DE00DE0675 /* HomeViewController */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D3D2EF5230400DE0675 /* cells */,
-				183E7D3B2EF522EF00DE0675 /* models */,
-				183E7D1B2EF5134200DE0675 /* HomeViewController.swift */,
-			);
-			path = HomeViewController;
-			sourceTree = "<group>";
-		};
-		183E7D3B2EF522EF00DE0675 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D242EF5174C00DE0675 /* ScheduleItem.swift */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		183E7D3D2EF5230400DE0675 /* cells */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D1E2EF513DC00DE0675 /* ScheduleCardCell.swift */,
-			);
-			path = cells;
-			sourceTree = "<group>";
-		};
-		183E7D3E2EF5231100DE0675 /* menuviewcontroller */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D362EF5212000DE0675 /* MenuViewController.swift */,
-			);
-			path = menuviewcontroller;
-			sourceTree = "<group>";
-		};
-		183E7D3F2EF5232700DE0675 /* OnboardingViewController */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D182EF50C9700DE0675 /* OnboardingViewController.swift */,
-			);
-			path = OnboardingViewController;
-			sourceTree = "<group>";
-		};
-		183E7D412EF5239900DE0675 /* ClassesViewController */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D4E2EF524C200DE0675 /* cells */,
-				183E7D462EF5243C00DE0675 /* models */,
-				183E7D422EF523AA00DE0675 /* ClassesViewController.swift */,
-			);
-			path = ClassesViewController;
-			sourceTree = "<group>";
-		};
-		183E7D462EF5243C00DE0675 /* models */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D472EF5245100DE0675 /* ClassItem.swift */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		183E7D4E2EF524C200DE0675 /* cells */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D532EF531FF00DE0675 /* ClassCardCell.swift */,
-			);
-			path = cells;
-			sourceTree = "<group>";
-		};
-		183E7D5F2EF53A8E00DE0675 /* HomeworkViewController */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D602EF53AA500DE0675 /* HomeworkViewController.swift */,
-			);
-			path = HomeworkViewController;
-			sourceTree = "<group>";
-		};
-		183E7D752EF5623500DE0675 /* ExamsViewController */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D7F2EF562AB00DE0675 /* model */,
-				183E7D7A2EF5625D00DE0675 /* cells */,
-				183E7D762EF5624800DE0675 /* ExamsViewController.swift */,
-			);
-			path = ExamsViewController;
-			sourceTree = "<group>";
-		};
-		183E7D7A2EF5625D00DE0675 /* cells */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D7B2EF5626F00DE0675 /* ExamCardCell.swift */,
-			);
-			path = cells;
-			sourceTree = "<group>";
-		};
-		183E7D7F2EF562AB00DE0675 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D802EF562B600DE0675 /* ExamItem.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		183E7D9A2EF57F7F00DE0675 /* TeachersViewController */ = {
-			isa = PBXGroup;
-			children = (
-				183E7D9B2EF57FA900DE0675 /* TeachersViewController.swift */,
-			);
-			path = TeachersViewController;
-			sourceTree = "<group>";
-		};
-		183E7DA12EF589A100DE0675 /* MessagesViewController */ = {
-			isa = PBXGroup;
-			children = (
-				183E7DA32EF589B800DE0675 /* MessagesViewController.swift */,
-			);
-			path = MessagesViewController;
-			sourceTree = "<group>";
-		};
 		188D7EFD2EF432C6003EA03F = {
 			isa = PBXGroup;
 			children = (
 				188D7F082EF432C6003EA03F /* palStudy */,
+				1890AC4B2EFBBE1E00E31E75 /* README.md */,
+				1890AC4F2EFBBE7A00E31E75 /* screenshots */,
 				188D7F072EF432C6003EA03F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -202,31 +106,93 @@
 		188D7F082EF432C6003EA03F /* palStudy */ = {
 			isa = PBXGroup;
 			children = (
-				18A152BD2EF90B4E0059A557 /* Maths101ViewController */,
-				183E7DA12EF589A100DE0675 /* MessagesViewController */,
-				183E7D9A2EF57F7F00DE0675 /* TeachersViewController */,
-				183E7D752EF5623500DE0675 /* ExamsViewController */,
-				183E7D5F2EF53A8E00DE0675 /* HomeworkViewController */,
-				183E7D412EF5239900DE0675 /* ClassesViewController */,
-				183E7D3F2EF5232700DE0675 /* OnboardingViewController */,
-				183E7D3E2EF5231100DE0675 /* menuviewcontroller */,
-				183E7D3A2EF522DE00DE0675 /* HomeViewController */,
-				188D7F092EF432C6003EA03F /* AppDelegate.swift */,
-				188D7F0B2EF432C6003EA03F /* SceneDelegate.swift */,
-				188D7F0F2EF432C6003EA03F /* Main.storyboard */,
-				188D7F142EF432C9003EA03F /* LaunchScreen.storyboard */,
-				188D7F172EF432C9003EA03F /* Info.plist */,
-				183E7D152EF50BAE00DE0675 /* Assets.xcassets */,
+				1890AC472EFBBCB600E31E75 /* Models */,
+				1890AC492EFBBD4E00E31E75 /* Views */,
+				1890AC482EFBBD0900E31E75 /* Controllers */,
+				1890AC452EFBBC9A00E31E75 /* Resources */,
+				1890AC3F2EFBBC5E00E31E75 /* App */,
 			);
 			path = palStudy;
 			sourceTree = "<group>";
 		};
-		18A152BD2EF90B4E0059A557 /* Maths101ViewController */ = {
+		1890AC3F2EFBBC5E00E31E75 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				188D7F092EF432C6003EA03F /* AppDelegate.swift */,
+				188D7F0B2EF432C6003EA03F /* SceneDelegate.swift */,
+				188D7F172EF432C9003EA03F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1890AC452EFBBC9A00E31E75 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				188D7F0F2EF432C6003EA03F /* Main.storyboard */,
+				188D7F142EF432C9003EA03F /* LaunchScreen.storyboard */,
+				183E7D152EF50BAE00DE0675 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1890AC472EFBBCB600E31E75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				183E7D242EF5174C00DE0675 /* ScheduleItem.swift */,
+				183E7D802EF562B600DE0675 /* ExamItem.swift */,
+				183E7D472EF5245100DE0675 /* ClassItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1890AC482EFBBD0900E31E75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				183E7D182EF50C9700DE0675 /* OnboardingViewController.swift */,
+				183E7D1B2EF5134200DE0675 /* HomeViewController.swift */,
+				183E7D362EF5212000DE0675 /* MenuViewController.swift */,
+				183E7D422EF523AA00DE0675 /* ClassesViewController.swift */,
+				183E7D602EF53AA500DE0675 /* HomeworkViewController.swift */,
+				183E7D762EF5624800DE0675 /* ExamsViewController.swift */,
+				183E7D9B2EF57FA900DE0675 /* TeachersViewController.swift */,
+				183E7DA32EF589B800DE0675 /* MessagesViewController.swift */,
 				18A152BE2EF90B730059A557 /* Maths101ViewController.swift */,
 			);
-			path = Maths101ViewController;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1890AC492EFBBD4E00E31E75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1890AC4A2EFBBD5400E31E75 /* cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1890AC4A2EFBBD5400E31E75 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				183E7D1E2EF513DC00DE0675 /* ScheduleCardCell.swift */,
+				183E7D7B2EF5626F00DE0675 /* ExamCardCell.swift */,
+				183E7D532EF531FF00DE0675 /* ClassCardCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		1890AC4F2EFBBE7A00E31E75 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				1890AC502EFBBE7A00E31E75 /* teachers.png */,
+				1890AC512EFBBE7A00E31E75 /* homework.png */,
+				1890AC522EFBBE7A00E31E75 /* class_detail.png */,
+				1890AC532EFBBE7A00E31E75 /* classes.png */,
+				1890AC542EFBBE7A00E31E75 /* home.png */,
+				1890AC552EFBBE7A00E31E75 /* menu.png */,
+				1890AC562EFBBE7A00E31E75 /* onboarding.png */,
+				1890AC572EFBBE7A00E31E75 /* exams.png */,
+				1890AC582EFBBE7A00E31E75 /* messages.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,9 +252,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1890AC5F2EFBBE7A00E31E75 /* onboarding.png in Resources */,
 				188D7F162EF432C9003EA03F /* LaunchScreen.storyboard in Resources */,
+				1890AC5B2EFBBE7A00E31E75 /* class_detail.png in Resources */,
+				1890AC5D2EFBBE7A00E31E75 /* home.png in Resources */,
 				183E7D162EF50BAE00DE0675 /* Assets.xcassets in Resources */,
+				1890AC4C2EFBBE1E00E31E75 /* README.md in Resources */,
+				1890AC612EFBBE7A00E31E75 /* messages.png in Resources */,
+				1890AC5C2EFBBE7A00E31E75 /* classes.png in Resources */,
+				1890AC5E2EFBBE7A00E31E75 /* menu.png in Resources */,
 				188D7F112EF432C6003EA03F /* Main.storyboard in Resources */,
+				1890AC592EFBBE7A00E31E75 /* teachers.png in Resources */,
+				1890AC602EFBBE7A00E31E75 /* exams.png in Resources */,
+				1890AC5A2EFBBE7A00E31E75 /* homework.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

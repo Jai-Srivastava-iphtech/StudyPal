@@ -115,51 +115,54 @@ This project demonstrates a **real-world iOS app structure** with multiple modul
 ```text
 StudyPal
 │
-├── Maths101ViewController
-│   └── Maths101ViewController.swift
+├── App
+│   ├── AppDelegate.swift
+│   ├── SceneDelegate.swift
+│   └── Info.plist
 │
-├── MessagesViewController
-│   └── MessagesViewController.swift
+├── Resources
+│   ├── Main.storyboard
+│   ├── LaunchScreen.storyboard
+│   └── Assets.xcassets
 │
-├── TeachersViewController
-│   └── TeachersViewController.swift
+├── Models
+│   ├── ScheduleItem.swift
+│   ├── ClassItem.swift
+│   └── ExamItem.swift
 │
-├── ExamsViewController
-│   ├── models
-│   │   └── ExamItem.swift
-│   ├── cells
-│   │   └── ExamCardCell.swift
-│   └── ExamsViewController.swift
+├── Controllers
 │
-├── HomeworkViewController
-│   └── HomeworkViewController.swift
+│   ├── Onboarding
+│   │   └── OnboardingViewController.swift
 │
-├── ClassesViewController
-│   ├── models
-│   │   └── ClassItem.swift
-│   ├── cells
-│   │   └── ClassCardCell.swift
-│   └── ClassesViewController.swift
+│   ├── Home
+│   │   └── HomeViewController.swift
 │
-├── HomeViewController
-│   ├── models
-│   │   └── ScheduleItem.swift
-│   ├── cells
-│   │   └── ScheduleCardCell.swift
-│   └── HomeViewController.swift
+│   ├── Menu
+│   │   └── MenuViewController.swift
 │
-├── OnboardingViewController
-│   └── OnboardingViewController.swift
+│   ├── Classes
+│   │   ├── ClassesViewController.swift
+│   │   └── Maths101ViewController.swift
 │
-├── MenuViewController
-│   └── MenuViewController.swift
+│   ├── Homework
+│   │   └── HomeworkViewController.swift
 │
-├── AppDelegate.swift
-├── SceneDelegate.swift
-├── Main.storyboard
-├── LaunchScreen.storyboard
-├── Info.plist
-└── Assets.xcassets
+│   ├── Exams
+│   │   └── ExamsViewController.swift
+│
+│   ├── Teachers
+│   │   └── TeachersViewController.swift
+│
+│   └── Messages
+│       └── MessagesViewController.swift
+│
+├── Views
+│   └── Cells
+│       ├── ScheduleCardCell.swift
+│       ├── ClassCardCell.swift
+│       └── ExamCardCell.swift
+
 ```
 ## Prerequisites  
 - Xcode 12.0 or later  
@@ -208,4 +211,5 @@ which greatly facilitated the development of this project.
 ## Demo Video  
 
 [🎬 Watch Full Demo on ScreenPal](https://go.screenpal.com/watch/cTlZ1QnYN6S)
+
 
