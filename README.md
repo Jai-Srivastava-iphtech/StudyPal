@@ -1,35 +1,119 @@
-# 📘 StudyPal – iOS Student Study App
+# StudyPal – iOS Student Study App
 
-StudyPal is an iOS application built using **UIKit and Storyboards** that helps students manage their academic activities such as classes, homework, exams, teachers, and messages in one place.
+## Introduction  
+StudyPal is a modern and well-structured **iOS Student Study App** built using **Swift**, **UIKit**, and **Storyboards**, focused on helping students manage their academic activities efficiently in one place.  
 
-This project focuses on **clean UI, modular code structure, and real-world app navigation**.
-
----
-
-## App Screens
-
-| Onboarding | Home | Menu |
-|-----------|------|------|
-| ![](screenshots/onboarding.png) | ![](screenshots/home.png) | ![](screenshots/menu.png) |
-
-| Classes | Homework | Exams |
-|--------|----------|-------|
-| ![](screenshots/classes.png) | ![](screenshots/homework.png) | ![](screenshots/exams.png) |
-
-| Teachers | Messages | Class Detail |
-|----------|----------|--------------|
-| ![](screenshots/teachers.png) | ![](screenshots/messages.png) | ![](screenshots/class_detail.png) |
-
-Each screen is connected using a **UINavigationController** and **Storyboard segues**.
+This project demonstrates a **real-world iOS app structure** with multiple modules such as **Onboarding**, **Home Dashboard**, **Classes**, **Homework**, **Exams**, **Teachers**, and **Messages**, all connected through clean navigation flows.
 
 ---
 
-## Project Structure
+## Screens Included  
+- **Onboarding Screen**: Introductory screen before entering the app  
+- **Home Screen**: Dashboard showing today’s schedule and overview  
+- **Menu Screen**: Central navigation hub  
+- **Classes Screen**: Displays enrolled classes using card-based UI  
+- **Class Detail Screen**: Shows detailed information of a selected class  
+- **Homework Screen**: Subject-wise homework tracking  
+- **Exams Screen**: Upcoming exams with sign-up options  
+- **Teachers Screen**: Teacher list with profile images  
+- **Messages Screen**: Chat-style conversation list  
 
-The project is organized in a **feature-based structure** for better readability and scalability.
+---
+
+## Features  
+
+### Onboarding Screen  
+- Acts as the entry point of the application  
+- Introduces the purpose of the app  
+- Smooth transition to the Home Screen using `UINavigationController`  
+
+---
+
+### Home Screen  
+- Displays **Today’s Schedule** using `UICollectionView`  
+- Provides quick academic insights such as:
+  - Upcoming exams  
+  - Pending homework  
+  - Classes  
+  - Messages  
+- Supports both **portrait and landscape** orientations  
+- Clean and minimal dashboard layout  
+
+---
+
+### Menu Screen  
+- Serves as the central navigation hub  
+- Provides access to:
+  - Classes  
+  - Homework  
+  - Exams  
+  - Teachers  
+  - Grades  
+  - Messages  
+- Consistent UI design across all menu items  
+
+---
+
+### Classes Screen  
+- Displays all enrolled classes using card-style collection view cells  
+- Each card shows class title and details  
+- Tapping a class navigates to the **Class Detail Screen**  
+- Reusable and modular cell design  
+
+---
+
+### Class Detail Screen  
+- Displays detailed information about a selected class  
+- Includes:
+  - Background illustration  
+  - Lecturer details  
+  - Class description  
+- Focused on clarity and visual hierarchy  
+
+---
+
+### Homework Screen  
+- Subject-wise homework list  
+- Checkbox-style UI for task completion  
+- Simple and intuitive task tracking experience  
+
+---
+
+### Exams Screen  
+- Exam cards displaying:
+  - Subject name  
+  - Exam date  
+  - Exam mode (Online / Offline)  
+- Includes **Sign Up** option for exams  
+- Modular structure using models and custom cells  
+
+---
+
+### Teachers Screen  
+- Displays list of teachers with profile images  
+- Includes contact action icons  
+- Clean and readable list-based layout  
+
+---
+
+### Messages Screen  
+- Chat-style conversation list  
+- Displays recent conversations  
+- Prepared for future real-time messaging integration  
+
+---
+
+### Navigation  
+- **UINavigationController** for screen transitions  
+- **Storyboard Segues** for navigation flow  
+- Predictable and smooth back navigation behavior  
+
+---
+
+## Project Structure  
 
 ```text
-palStudy
+StudyPal
 │
 ├── Maths101ViewController
 │   └── Maths101ViewController.swift
@@ -41,7 +125,7 @@ palStudy
 │   └── TeachersViewController.swift
 │
 ├── ExamsViewController
-│   ├── model
+│   ├── models
 │   │   └── ExamItem.swift
 │   ├── cells
 │   │   └── ExamCardCell.swift
@@ -51,17 +135,17 @@ palStudy
 │   └── HomeworkViewController.swift
 │
 ├── ClassesViewController
-│   ├── cells
-│   │   └── ClassCardCell.swift
 │   ├── models
 │   │   └── ClassItem.swift
+│   ├── cells
+│   │   └── ClassCardCell.swift
 │   └── ClassesViewController.swift
 │
 ├── HomeViewController
-│   ├── cells
-│   │   └── ScheduleCardCell.swift
 │   ├── models
 │   │   └── ScheduleItem.swift
+│   ├── cells
+│   │   └── ScheduleCardCell.swift
 │   └── HomeViewController.swift
 │
 ├── OnboardingViewController
@@ -77,82 +161,52 @@ palStudy
 ├── Info.plist
 └── Assets.xcassets
 ```
+## Prerequisites  
+- Xcode 12.0 or later  
+- iOS 14.0 or later  
+- Swift 5.0 or later  
 
 ---
 
-## Features
-
-### Home
-- Dashboard with upcoming exams, pending homework, new classes, and messages
-- “Today’s Schedule” implemented using `UICollectionView`
-
-### Classes
-- Class list displayed using collection view cards
-- Tapping a class navigates to the class detail screen
-
-### Class Detail
-- Detailed information about a class
-- Background illustration and lecturer information
-
-### Homework
-- Subject-wise homework list
-- Checkbox-style task completion UI
-
-### Exams
-- Exam cards with subject, date, mode, and sign-up button
-- Option to sign up for another exam
-
-### Teachers
-- Teacher list with profile images and contact icons
-
-### Messages
-- Chat-style message list with recent conversations
-
----
-
-## Tech Stack
-
-- **Language:** Swift
-- **Framework:** UIKit
-- **UI Design:** Storyboards & Auto Layout
-- **Architecture:** MVC
-- **Navigation:** UINavigationController + Segues
-- **iOS Version:** iOS 14+
-
----
-
-## Learning Goals
-
-This project was built to practice:
-
-- UIKit & Storyboard-based UI development
-- UICollectionView & UITableView usage
-- Modular file organization
-- Navigation and screen flow
-- Auto Layout & adaptive layouts
-- Real-world app structure
-
----
-
-## Future Improvements
-
-- Firebase Authentication (Login / Sign Up)
-- Google Sign-In integration
-- Data persistence
-- Backend integration
-- Push notifications
-
----
-
-## Author
-
-**Jai Srivastava**  
-iOS Developer (Learning & Building)
-
----
-
-## License
-
+## License  
 This project is created for **learning and portfolio purposes**.
 
-	
+---
+
+## Contributing  
+Contributions are welcome.  
+If you find any issues or have suggestions for improvement, please submit an issue or create a pull request.
+
+---
+
+## Support  
+If you encounter any problems or have questions, please contact the project maintainer.
+
+---
+
+## Acknowledgements  
+Thanks to the **Apple Developer Community** for their frameworks and documentation,  
+which greatly facilitated the development of this project.
+
+---
+
+## Screenshots  
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="screenshots/onboarding.png" width="250" alt="Onboarding Screen">
+  <img src="screenshots/home.png" width="250" alt="Home Screen">
+  <img src="screenshots/menu.png" width="250" alt="Menu Screen">
+  <img src="screenshots/classes.png" width="250" alt="Classes Screen">
+  <img src="screenshots/class_detail.png" width="250" alt="Class Detail Screen">
+  <img src="screenshots/homework.png" width="250" alt="Homework Screen">
+  <img src="screenshots/exams.png" width="250" alt="Exams Screen">
+  <img src="screenshots/teachers.png" width="250" alt="Teachers Screen">
+  <img src="screenshots/messages.png" width="250" alt="Messages Screen">
+</div>
+
+---
+
+## Demo Video  
+
+[🎬 Watch Full Demo on ScreenPal](https://go.screenpal.com/watch/cTlZ1QnYN6S)
+
