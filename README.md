@@ -110,60 +110,6 @@ This project demonstrates a **real-world iOS app structure** with multiple modul
 
 ---
 
-## Project Structure  
-
-```text
-StudyPal
-│
-├── App
-│   ├── AppDelegate.swift
-│   ├── SceneDelegate.swift
-│   └── Info.plist
-│
-├── Resources
-│   ├── Main.storyboard
-│   ├── LaunchScreen.storyboard
-│   └── Assets.xcassets
-│
-├── Models
-│   ├── ScheduleItem.swift
-│   ├── ClassItem.swift
-│   └── ExamItem.swift
-│
-├── Controllers
-│
-│   ├── Onboarding
-│   │   └── OnboardingViewController.swift
-│
-│   ├── Home
-│   │   └── HomeViewController.swift
-│
-│   ├── Menu
-│   │   └── MenuViewController.swift
-│
-│   ├── Classes
-│   │   ├── ClassesViewController.swift
-│   │   └── Maths101ViewController.swift
-│
-│   ├── Homework
-│   │   └── HomeworkViewController.swift
-│
-│   ├── Exams
-│   │   └── ExamsViewController.swift
-│
-│   ├── Teachers
-│   │   └── TeachersViewController.swift
-│
-│   └── Messages
-│       └── MessagesViewController.swift
-│
-├── Views
-│   └── Cells
-│       ├── ScheduleCardCell.swift
-│       ├── ClassCardCell.swift
-│       └── ExamCardCell.swift
-
-```
 ## Prerequisites  
 - Xcode 12.0 or later  
 - iOS 14.0 or later   
@@ -195,15 +141,15 @@ which greatly facilitated the development of this project.
 ## Screenshots  
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="screenshots/onboarding.png" width="250" alt="Onboarding Screen">
-  <img src="screenshots/home.png" width="250" alt="Home Screen">
-  <img src="screenshots/menu.png" width="250" alt="Menu Screen">
-  <img src="screenshots/classes.png" width="250" alt="Classes Screen">
-  <img src="screenshots/class_detail.png" width="250" alt="Class Detail Screen">
-  <img src="screenshots/homework.png" width="250" alt="Homework Screen">
-  <img src="screenshots/exams.png" width="250" alt="Exams Screen">
-  <img src="screenshots/teachers.png" width="250" alt="Teachers Screen">
-  <img src="screenshots/messages.png" width="250" alt="Messages Screen">
+  <img width="250" src="https://github.com/user-attachments/assets/5ae63bcd-8bef-4ed5-8c53-a73424a28bfa" alt="onboarding"/>
+  <img src="https://github.com/user-attachments/assets/5df3d224-af75-4e9a-b71c-42685cb334e5" width="250" alt="Home Screen">
+  <img src="https://github.com/user-attachments/assets/5f7fb3f6-435d-4ff3-9959-9c87dc0d5abc" width="250" alt="Menu Screen">
+  <img src="https://github.com/user-attachments/assets/b8adcb46-aa04-4084-a072-d6d5c28c21cc" width="250" alt="Classes Screen">
+  <img src="https://github.com/user-attachments/assets/43bee566-714e-462d-9d00-797204841b32" width="250" alt="Class Detail Screen">
+  <img src="https://github.com/user-attachments/assets/227f8e72-d258-4c0e-98bc-7eb103c721b2" width="250" alt="Homework Screen">
+  <img src="https://github.com/user-attachments/assets/53fa2ec8-0424-4d19-9b6c-a4f5e7bcc5ea" width="250" alt="Exams Screen">
+  <img src="https://github.com/user-attachments/assets/40659bff-5634-40a0-bf95-bc9c7058d974" width="250" alt="Teachers Screen">
+  <img src="https://github.com/user-attachments/assets/207dba01-bec7-41a8-b273-4f8bfc0b1a06" width="250" alt="Messages Screen">
 </div>
 
 ---
